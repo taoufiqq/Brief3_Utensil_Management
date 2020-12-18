@@ -4,14 +4,14 @@ import java.util.Date;
 
 public class Cuillére extends Ustensile{
 
-	private int idCuillère;
+	private int idCuillere;
 	private double longueur;
 	
 	public int getIdCuillère() {
-		return idCuillère;
+		return idCuillere;
 	}
-	public void setIdCuillére(int idCuillère) {
-		this.idCuillère = idCuillère;
+	public void setIdCuillére(int idCuillere) {
+		this.idCuillere = idCuillere;
 	}
 	public double getLongueur() {
 		return longueur;
@@ -24,15 +24,15 @@ public class Cuillére extends Ustensile{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Cuillére(Date anneeFabrication,int idCuillère,double longueur) {
+	public Cuillére(Date anneeFabrication,int idCuillere,double longueur) {
 		super(anneeFabrication);
-		this.idCuillère = idCuillère;
+		this.idCuillere = idCuillere;
 		this.longueur = longueur;
 		// TODO Auto-generated constructor stub
 	}
 	@Override
 	public String toString() {
-		return "\nidCuillère=" + idCuillère + "\nlongueur=" + longueur 
+		return "\nidCuillère=" + idCuillere + "\nlongueur=" + longueur 
 				+ super.toString();
 	}
 	

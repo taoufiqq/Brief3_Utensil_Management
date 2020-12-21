@@ -1,20 +1,20 @@
 package com.Gestion_Ustensiles.models;
 
-import java.util.Date;
 
-public class Ustensile {
 
-	private Date anneeFabrication;
+public abstract class Ustensile {
 
-	public Date getAnneeFabrication() {
+	private int anneeFabrication;
+
+	public int getAnneeFabrication() {
 		return anneeFabrication;
 	}
 
-	public void setAnneeFabrication(Date anneeFabrication) {
+	public void setAnneeFabrication(int anneeFabrication) {
 		this.anneeFabrication = anneeFabrication;
 	}
 
-	public Ustensile(Date anneeFabrication) {
+	public Ustensile(int anneeFabrication) {
 		super();
 		this.anneeFabrication = anneeFabrication;
 	}
@@ -27,4 +27,8 @@ public class Ustensile {
 	public String toString() {
 		return "anneeFabrication:" + anneeFabrication ;
 	}
+	
+	
+	
+	
 }

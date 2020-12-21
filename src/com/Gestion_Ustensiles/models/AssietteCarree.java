@@ -1,6 +1,6 @@
 package com.Gestion_Ustensiles.models;
 
-import java.util.Date;
+
 
 public class AssietteCarree extends Assiette{
 	
@@ -22,10 +22,13 @@ public class AssietteCarree extends Assiette{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public AssietteCarree(Date anneeFabrication,int idAssietteCarree,double cote) {
+	public AssietteCarree(int anneeFabrication,int idAssietteCarree,double cote) {
 		super(anneeFabrication);
 		this.idAssietteCarree = idAssietteCarree;
 		this.cote = cote;
+		// TODO Auto-generated constructor stub
+	}
+	public AssietteCarree(long long1,long long2) {
 		// TODO Auto-generated constructor stub
 	}
 	@Override

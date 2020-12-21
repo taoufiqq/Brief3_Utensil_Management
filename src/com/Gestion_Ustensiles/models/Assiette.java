@@ -1,15 +1,15 @@
 package com.Gestion_Ustensiles.models;
 
-import java.util.Date;
 
-public class Assiette extends Ustensile{
+
+public abstract class Assiette extends Ustensile{
 
 	public Assiette() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Assiette(Date anneeFabrication) {
+	public Assiette(int anneeFabrication) {
 		super(anneeFabrication);
 		// TODO Auto-generated constructor stub
 	}

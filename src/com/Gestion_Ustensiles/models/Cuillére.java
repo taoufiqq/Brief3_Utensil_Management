@@ -1,6 +1,6 @@
 package com.Gestion_Ustensiles.models;
 
-import java.util.Date;
+
 
 public class Cuillére extends Ustensile{
 
@@ -24,10 +24,14 @@ public class Cuillére extends Ustensile{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Cuillére(Date anneeFabrication,int idCuillere,double longueur) {
+	public Cuillére(int anneeFabrication,int idCuillere,double longueur) {
 		super(anneeFabrication);
 		this.idCuillere = idCuillere;
 		this.longueur = longueur;
+		// TODO Auto-generated constructor stub
+	}
+
+	public Cuillére(long long1, String string, String string2) {
 		// TODO Auto-generated constructor stub
 	}
 	@Override
